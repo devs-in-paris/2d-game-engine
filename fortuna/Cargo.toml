@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-notan = "0.10.0"
+notan = { version = "0.10.0", features = ["texture_to_file"]}

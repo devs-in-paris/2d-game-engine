@@ -18,8 +18,7 @@ impl State {
     }
 }
 
-#[notan_main]
-fn main() -> Result<(), String> {
+pub fn walk() -> Result<(), String> {
     notan::init_with(State::new)
         .add_config(DrawConfig)
         .draw(draw)
